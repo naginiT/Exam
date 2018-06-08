@@ -12,7 +12,8 @@ public class Exampl {
 		driver.get("https://www.w3schools.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("/html/body/div[7]/div[1]/div[1]/a[1]")).click();
-		System.out.println("click on  element");
+		System.out.println("click on the element");
+		System.out.println("changes");
 	}
 
 }
